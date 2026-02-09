@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "adahessian-jax"
+version = "0.1.0"
+description = "Standalone JAX implementation of the AdaHessian optimizer"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [{name = "Viral Gupta"}]
+dependencies = [
+  "jax>=0.4.30",
+  "jaxlib>=0.4.30",
+  "numpy>=1.24",
+]
+
+[tool.pytest.ini_options]
+addopts = "-q"
