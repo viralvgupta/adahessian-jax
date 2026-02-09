@@ -2,7 +2,7 @@
 
 ![tests](https://github.com/viralvgupta/adahessian-jax/actions/workflows/tests.yml/badge.svg)
 
-Standalone JAX implementation of the AdaHessian optimizer with Hutchinson diagonal Hessian estimation.
+Standalone JAX (optax style) implementation of the AdaHessian optimizer with Hutchinson diagonal Hessian estimation.
 
 ## Why AdaHessian
 
