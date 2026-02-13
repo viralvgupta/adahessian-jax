@@ -63,6 +63,8 @@ params = params + updates
 
 - `obj_fn` is required for the Hutchinson Hessian estimator.
 - `update_interval` lets you compute Hessian diagonals less frequently.
+The complete implementation of the Adahessian optimizer in JAX, including Hutchinson trace estimation and diagonal Hessian approximation, is available on GitHub:
+🔗 https://github.com/viralvgupta/adahessian-jax
 
 ## License
 
